@@ -44,7 +44,8 @@ button:hover {
 }
 
 /* Contenedores de respuesta */
-#response {
+#response,
+#postResponse{
     text-align: center;
     font-weight: 500;
     font-size: 18px;

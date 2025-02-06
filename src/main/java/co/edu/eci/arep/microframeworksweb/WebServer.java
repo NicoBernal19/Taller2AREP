@@ -34,7 +34,7 @@ public class WebServer {
         }
     }
 
-    private void handleRequest(Socket clientSocket) throws IOException {
+    void handleRequest(Socket clientSocket) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
         OutputStream out = clientSocket.getOutputStream();
         String inputLine = in.readLine();
