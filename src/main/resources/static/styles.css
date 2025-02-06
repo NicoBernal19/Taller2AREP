@@ -1,0 +1,112 @@
+/* Estilos globales */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #212529;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+    text-align: center;
+    color: #1d3557;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    color: #457b9d;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+/* Botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Contenedores de respuesta */
+#response {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #495057;
+}
+
+/* Inputs */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+/* Botón dentro de formularios */
+button[type="submit"] {
+    background-color: #28a745;
+    margin-top: 12px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}

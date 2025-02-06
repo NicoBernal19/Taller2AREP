@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Web Simple</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Servidor Web Simple</h1>
+
+<form id="imageForm">
+    <h2>Obtener Imagen de tu Equipo Favorito</h2>
+    <label for="imageName">Introduce el nombre de la imagen de tu equipo (realMadrid.png, barcelona.png, liverpool.png, PSG.png, manUtd.png):</label>
+    <input type="text" id="imageName" name="imageName" required>
+    <button type="submit">Obtener Equipo</button>
+    <br>
+    <img id="resultImage" alt="La imagen aparecerá aquí" style="display: none; width: 300px;">
+</form>
+
+<form id="getForm">
+    <h2>Obtener Saludo Personalizado</h2>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" required>
+    <button type="submit">Obtener Saludo</button>
+</form>
+<div id="response" style="font-weight: bold; margin-top: 10px; text-align: center;"></div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
