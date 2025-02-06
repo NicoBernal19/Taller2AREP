@@ -56,10 +56,21 @@ public class WebServer {
         String servicePath = pathParts[0];
         String queryString = pathParts.length > 1 ? pathParts[1] : "";
 
-        StringBuilder requestBody = new StringBuilder();
+        // Leer headers y determinar el tamaño del cuerpo
+        int contentLength = 0;
         String line;
         while ((line = in.readLine()) != null && !line.isEmpty()) {
-            requestBody.append(line).append("\n");
+            if (line.startsWith("Content-Length:")) {
+                contentLength = Integer.parseInt(line.split(":")[1].trim());
+            }
+        }
+
+        // Leer el cuerpo solo si es una solicitud POST
+        StringBuilder requestBody = new StringBuilder();
+        if ("POST".equals(method) && contentLength > 0) {
+            char[] buffer = new char[contentLength];
+            in.read(buffer, 0, contentLength);
+            requestBody.append(buffer);
         }
 
         BiFunction<Request, Response, String> service = WebFramework.getRoutes().getOrDefault(method, new HashMap<>()).get(servicePath);

@@ -19,12 +19,20 @@
 </form>
 
 <form id="getForm">
-    <h2>Obtener Saludo Personalizado</h2>
-    <label for="name">Enter your name:</label>
+    <h2>Obtener Saludo Personalizado (GET)</h2>
+    <label for="name">Introduce tu nombre:</label>
     <input type="text" id="name" name="name" required>
     <button type="submit">Obtener Saludo</button>
 </form>
 <div id="response" style="font-weight: bold; margin-top: 10px; text-align: center;"></div>
+
+<form id="postForm">
+    <h2>Enviar algun mensaje (POST)</h2>
+    <label for="message">Mensaje:</label>
+    <input type="text" id="message" name="message" required>
+    <button type="submit">Enviar Mensaje</button>
+</form>
+<div id="postResponse" style="font-weight: bold; margin-top: 10px; text-align: center;"></div>
 
 <script src="/static/script.js"></script>
 </body>
