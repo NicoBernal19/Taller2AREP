@@ -43,11 +43,23 @@ Entre las funcionalidades que se ofrecen encontramos las siguientes:
 
 ### Pruebas Unitarias
 
+Antes que nada debo dejar claro que hay algunas pruebas que requieren que el servidor este corriendo para que funcionen, por lo tanto sugiero ejecutar primero el servidor y luego si ejecutar las pruebas.
+
 Para poder ejecutar las pruebas con las que cuenta este proyecto ejecuta el siguiente comando:
 
 ```
 mvn test
 ```
+
+A continuacion se encuentran imagenes de la ejecucion de las pruebas:
+
+![imagen](src/main/resources/images/1.png)
+
+![imagen](src/main/resources/images/2.png)
+
+![imagen](src/main/resources/images/3.png)
+
+![imagen](src/main/resources/images/4.png)
 
 ### Pruebas en tiempo real
 
@@ -57,7 +69,12 @@ Abre el navegador para poder probar el servidor y accede al siguiente enlace:
 http://localhost:35000
 ```
 
-Una vez abierto el servidor web puedes navegar la pagina, probando las distintas funcionalidades.
+Una vez abierto el servidor web puedes navegar la pagina, probando las distintas funcionalidades. A continuacion encontramos algunos ejemplos de acciones que se pueden hacer:
+
+![imagen](src/main/resources/images/5.png)
+
+![imagen](src/main/resources/images/6.png)
+
 
 ### Pruebas archivos estáticos
 
