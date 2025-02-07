@@ -94,12 +94,12 @@ input[type="text"]:focus {
 
 /* Botón dentro de formularios */
 button[type="submit"] {
-    background-color: #28a745;
+    background-color: #c22042;
     margin-top: 12px;
 }
 
 button[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #c22042;
 }
 
 /* Imágenes */
