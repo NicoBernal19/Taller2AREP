@@ -1,7 +1,6 @@
 # Servidor Web hecho en Java
 
-Servidor web que soporta múlltiples solicitudes seguidas no concurrentes. El servidor lee los archivos del disco local y retorna todos los archivos solicitados, incluyendo páginas html, archivos java script, css e imágenes.
-Incluye en la aplicación la comunicación asíncrona con unos servicios REST, NO se usan frameworks web como Spark o Spring, solo se uso Java y las librerías para manejo de la red.
+Este proyecto tiene como objetivo mejorar un servidor web existente, el cual actualmente admite archivos HTML, JavaScript, CSS e imágenes, para convertirlo en un framework web completo. Este nuevo framework permitirá el desarrollo de aplicaciones web con servicios backend basados en REST. Para ello, proporcionará herramientas que facilitarán a los desarrolladores la definición de servicios REST mediante funciones lambda, la gestión de valores de consulta dentro de las solicitudes y la especificación de la ubicación de archivos estáticos.
 
 ## Autor
 
