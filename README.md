@@ -7,19 +7,6 @@ Incluye en la aplicación la comunicación asíncrona con unos servicios REST, N
 
 * **Nicolas Bernal** - Autor y Desarrollador del Proyecto
 
-## Instrucciones
-
-Sigue estas instrucciones para poder configurar y ejecutar el proyecto en tu máquina local.
-
-Para la instalacion y ejecucion del proyecto se requiere como minimo de lo siguiente:
-
-```
-- Java 8 o superior
-- Apache Maven
-- Una terminal
-- Git
-```
-
 ### Paso a paso para la instalacion, compilacion y ejecucion del proyecto
 
 Clona este repositorio y navega al directorio donde clonaste el proyecto:
