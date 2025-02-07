@@ -74,6 +74,11 @@ Una vez abierto el servidor web puedes navegar la pagina, probando las distintas
 
 ![imagen](src/main/resources/images/6.png)
 
+Tambien puedes ir al siguiente enlace (o uno similar) para probar la funcionalidad del saludo:
+
+```
+http://localhost:35000/App/hello?name=nicolas
+```
 
 ### Pruebas archivos estáticos
 
