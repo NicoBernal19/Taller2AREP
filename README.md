@@ -20,7 +20,7 @@ Para la instalacion y ejecucion del proyecto se requiere como minimo de lo sigui
 - Git
 ```
 
-### Instalación
+### Paso a paso para la instalacion, compilacion y ejecucion del proyecto
 
 Clona este repositorio y navega al directorio donde clonaste el proyecto:
 
@@ -37,7 +37,7 @@ mvn clean install
 Ejecuta la aplicacion, corre la clase principal para iniciar el servidor:
 
 ```
-mvn exec:java -Dexec.mainClass="co.edu.eci.arep.HttpServer"
+mvn exec:java -Dexec.mainClass="co.edu.eci.arep.WebFramework"
 ```
 
 El servidor esta hecho para que inicie en el puerto `35000`, una vez ejecutado, ya esta listo para que puedas usarlo y probarlo.
